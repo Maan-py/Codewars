@@ -25,7 +25,7 @@ const rps = (p1, p2) => {
   if(p1 === p2) {
     return "Draw!"
   } else {
-    return `Player ${(rules[p1] === p2) ? "1" : "2"} won!`
+    return `Player ${(rules.p1 === p2) ? "1" : "2"} won!`
   }
 };
 
