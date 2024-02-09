@@ -24,3 +24,13 @@
 const arrayPlusArray = (arr1, arr2) => [...arr1, ...arr2].reduce((acc, curr) => acc + curr);
 
 console.log(arrayPlusArray([100, 200, 300], [400, 500, 600]));
+
+// const capital = {
+//   Jakarta: "Indonesia",
+//   London: "England",
+//   Tokyo: "Japan",
+//   Indonesia : "Jakarta"
+// };
+// capital["New Delhi"] = "Indonesia";
+
+// console.log(capital["Indonesia"]);
