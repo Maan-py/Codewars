@@ -1,12 +1,12 @@
 function booleanToString(b) {
-  let hasil;
+  let result;
   if (b === true) {
     hasil = "true";
   } else if (b === false) {
     hasil = "false";
   }
 
-  return hasil;
+  return result;
 }
 
 console.log(booleanToString(true));
